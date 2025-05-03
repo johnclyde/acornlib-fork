@@ -13,7 +13,7 @@ including documentation, is in the [acornprover.org repository](https://github.c
 ### Natural Numbers (`nat.ac`)
 - Peano arithmetic with inductive definition of natural numbers
 - Complete arithmetic operations (addition, multiplication)
-- Core properties: 
+- Core properties:
   - Addition and multiplication are commutative and associative
   - Multiplication distributes over addition
   - Properties of zero and successor function
@@ -50,7 +50,7 @@ including documentation, is in the [acornprover.org repository](https://github.c
 
 - **Absolute Value**:
   - Absolute value is always non-negative
-  - |x| = |-x| for all reals 
+  - |x| = |-x| for all reals
   - Triangle inequality properties
 
 - **Min and Max**:
