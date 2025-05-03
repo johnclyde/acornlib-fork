@@ -127,8 +127,4 @@ blocks:
     - mul_one_left
     - mul_zero_left
     - mul_zero_right
-<<<<<<< HEAD
     - neg_zero
-=======
-    - neg_zero
->>>>>>> 77bc82b (Add complex mul_one and conj_add theorems with build configuration)
