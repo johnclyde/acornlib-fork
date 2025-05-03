@@ -247,10 +247,9 @@ theorem abs_squared_nonneg(a: Complex) { a.abs_squared >= Real.0 } by {
     let re_square: Real = a.re * a.re
     let im_square: Real = a.im * a.im
 
-    // Using the property that for any real x, x*x >= 0
-    // This is a fundamental property of real numbers
-    a.re * a.re >= Real.0
-    a.im * a.im >= Real.0
+    // Squares of real numbers are non-negative
+    re_square >= Real.0
+    im_square >= Real.0
 
     // By definition of re_square and im_square
     re_square = a.re * a.re
