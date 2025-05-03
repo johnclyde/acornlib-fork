@@ -11,6 +11,7 @@ blocks:
     - Complex.re
     real:
     - Real.add
+    - Real.mul
     - Real.sub
     - add_neg_eq_zero
     - mul_comm
