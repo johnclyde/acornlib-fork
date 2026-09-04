@@ -148,7 +148,7 @@ theorem word_eval_add[T, G: Group](left: List[SignedGenerator[T]],
             p(List.cons(head, tail))
         }
     }
-    List.induction(function(l: List[SignedGenerator[T]]) { p(l) })
+    List.induction(p)
     forall(l: List[SignedGenerator[T]]) { p(l) }
 }
 
@@ -208,7 +208,7 @@ theorem word_inverse_add[T](left: List[SignedGenerator[T]],
             p(List.cons(head, tail))
         }
     }
-    List.induction(function(l: List[SignedGenerator[T]]) { p(l) })
+    List.induction(p)
     forall(l: List[SignedGenerator[T]]) { p(l) }
 }
 
@@ -233,7 +233,7 @@ theorem word_inverse_inverse[T](w: List[SignedGenerator[T]]) {
             p(List.cons(head, tail))
         }
     }
-    List.induction(function(l: List[SignedGenerator[T]]) { p(l) })
+    List.induction(p)
     forall(l: List[SignedGenerator[T]]) { p(l) }
 }
 
@@ -263,7 +263,7 @@ theorem word_eval_inverse[T, G: Group](w: List[SignedGenerator[T]], assign: T ->
             p(List.cons(head, tail))
         }
     }
-    List.induction(function(l: List[SignedGenerator[T]]) { p(l) })
+    List.induction(p)
     forall(l: List[SignedGenerator[T]]) { p(l) }
 }
 
